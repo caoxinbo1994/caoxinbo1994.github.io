@@ -1,0 +1,113 @@
+/*定义字体*/
+@font-face {
+    font-family: 'iconfont';
+    src: url('./font_a3fwvkfoj46/iconfont.eot');
+    src: url('./font_a3fwvkfoj46/iconfont.eot?#iefix') format('embedded-opentype'),
+        url('./font_a3fwvkfoj46/iconfont.woff2') format('woff2'),
+        url('./font_a3fwvkfoj46/iconfont.woff') format('woff'),
+        url('./font_a3fwvkfoj46/iconfont.ttf') format('truetype'),
+        url('./font_a3fwvkfoj46/iconfont.svg#iconfont') format('svg');
+  }
+  .iconfont {
+    font-family: "iconfont" !important;
+    font-size: 16px;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  body,ul,li,p,span,a,h3{
+      margin: 0;
+      padding: 0;
+  }
+  ul{
+      list-style: none;
+  }
+  a{
+      text-decoration: none;
+  }
+  body{
+      width: 100%;
+      height: auto;;
+  }
+          /*header*/
+.header{
+    width: 126%;
+    height: 60px;
+    background: black;
+}
+.header ul li{
+    float: left;
+    margin-left: 22px;
+    line-height: 60px;
+}
+.header ul li a{
+    color: white;
+}
+.main{
+    width: 470px;
+    height: 700px;
+    /* border: 1px solid red; */
+    margin: 0 auto;
+     overflow: hidden;
+     position: relative;
+     background-position: 50%;
+}
+.list{
+    width: 7680px;
+    animation: name 10s infinite;
+}
+.list:hover{
+    animation-play-state:paused;
+}
+.list>li{
+    width:1920px;
+    height:790px;
+    float: left;
+}
+
+@-webkit-keyframes name{
+    0%{
+        transform: translate(0,0)
+    }
+  
+    25%{
+        transform: translate(-1920px,0)
+    }
+   
+    50%{
+        transform: translate(-3840px,0)
+    }
+   
+    75%{
+        transform: translate(-5760px,0)
+    }
+   
+    100%{
+        transform: translate(0,0)
+    }
+}
+.box ul li div{
+    display: none;
+}
+.foten{
+    height: 380px;
+}
+.foten .fo .fen{
+    display: none;
+}
+.foten .fo .pof ul{
+    margin-left: 40px;
+}
+.foten .fo .pof{
+   
+    margin-top: 30px;
+}
+.foten .fo .pof ul li{
+    margin-left: 65px;
+    margin-top: 10px;
+}
+.foten .fo .pof  span{
+    display: block;
+    font-size: 13px;
+    text-align: center;
+}
